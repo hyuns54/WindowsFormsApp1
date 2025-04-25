@@ -16,6 +16,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             //MessageBox.Show("안녕");
+            textBox_print.Text = "이것은 \r\n 텍스트박스 \r\n 입니다.";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
