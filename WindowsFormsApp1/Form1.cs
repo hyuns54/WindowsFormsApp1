@@ -12,16 +12,18 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
-            //MessageBox.Show("안녕");
-            textBox_print.Text = "이것은 \r\n 텍스트박스 \r\n 입니다.";
+            MessageBox.Show("안녕하세요");
+            textBox_Print.Text = "이것은 \r\n 텍스트박스 \r\n 예제입니다.";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            textBox_print.Text = "이것은 \r\n 텍스트박스 \r\n 입니다.";
+            
         }
+// 칸 바꾸는 거
     }
 }
